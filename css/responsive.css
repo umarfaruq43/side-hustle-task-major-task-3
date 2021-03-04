@@ -1,0 +1,116 @@
+@media screen and (max-width: 475px) {
+  /* body{
+        background: red;
+    } */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+  }
+  nav ul li {
+    display: inline;
+    /* margin: 0 0.1rem; */
+    font-size: 1rem;
+  }
+
+  nav .logo {
+    max-width: 100px;
+  }
+  nav ul li a {
+    margin: 0.2rem;
+  }
+  .header_info {
+    margin: 0 auto;
+    width: 90%;
+    padding: 0 0 5rem 0;
+  }
+  .header_info button {
+    width: 80%;
+  }
+  .header_text h1 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  .text {
+    margin-top: 0;
+    width: 95%;
+  }
+  .bg {
+    background-image: url(../images/bg-curvy-mobile.svg);
+    background-position: bottom;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  .productive_text h1 {
+    font-size: 1.2rem;
+    max-width: 100%;
+    margin: 0;
+    line-height: 3rem;
+  }
+  .testimony {
+    background-image: url(../images/bg-quotes.png);
+    background-position-x: 2rem;
+    background-repeat: no-repeat;
+    margin-top: 9rem;
+    padding: 2.5rem 2rem 20rem 2rem;
+  }
+  .box_1 {
+    min-width: 100%;
+    max-width: fit-content;
+    padding: 1rem;
+    background-color: hsl(219, 30%, 18%);
+    border-radius: 7px;
+    margin-bottom: 0.9rem;
+  }
+  .early_access {
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 20rem;
+    background-color: #181f2b;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.829);
+  }
+  .get {
+    width: 100%;
+  }
+  .early_access {
+    height: 40vh;
+  }
+  .early_access h1 {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+  }
+  .early_access_info {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .get {
+    position: relative;
+  }
+  form input {
+    padding: 0 1.5rem;
+    width: 90%;
+  }
+
+  form button {
+    margin: 1rem 0;
+    width: 90%;
+  }
+  .early_access_info {
+    width: 95%;
+    padding-top: 2em;
+  }
+  footer:active,
+  footer:visited,
+  footer {
+    padding: 15rem 0 1rem 1rem;
+    margin: 0 auto;
+    background-color: #0c1524;
+  }
+}
