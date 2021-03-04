@@ -12,7 +12,6 @@ html {
   /* margin: 0; */
   padding: 0;
   /* border: 1px solid red; */
-  line-height: 1.7rem;
 }
 body {
   /* background-color: hsl(218, 28%, 13%); */
@@ -26,7 +25,7 @@ body {
 }
 .bg {
   background-image: url(../images/bg-curvy-desktop.svg);
-  background-position: bottom;
+  background-position: bottom right;
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -168,7 +167,10 @@ nav ul li a {
 .arrow {
   position: absolute;
   bottom: 0;
-  left: 9.5rem;
+  left: 9.8rem;
+  color: aqua;
+  box-shadow: 1px 1px 7px aqua;
+  border-radius: 100%;
 }
 
 .profile {
@@ -263,19 +265,22 @@ form button {
 footer:active,
 footer:visited,
 footer {
-  padding: 12rem 2rem 1rem 4rem;
+  padding: 15rem 2rem 1rem 4rem;
   margin: 0 auto;
   background-color: #0c1524;
 }
 .footer_row {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
 }
-.footer_row div {
-  /* min-width: 200px; */
+
+.footer_row .word {
   max-width: 300px;
+}
+.footer_row div{
+  margin-bottom:2rem;
 }
 .footer_row div:not(:last-child) {
   margin-bottom: 1rem;
@@ -288,6 +293,13 @@ footer ul {
 }
 footer li:not(:last-child) {
   margin-bottom: 1rem;
+}
+footer li {
+  min-width: 200px;
+}
+footer li a{
+  text-decoration: none;
+  color: #fff;
 }
 .Footer_logo_box {
   margin: 1rem;
@@ -303,8 +315,20 @@ footer li:not(:last-child) {
   margin: 0 1rem 0 0;
 }
 
-.footer_icons img {
+.footer_icons i {
   border: 1px solid #fff;
-  padding: 1rem;
+  width: 2rem;
+  height: 2rem;
   border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+.footer_icons a:not(:last-child) {
+  margin-right: 1rem;
+}
+.footer_icons a {
+  color: #fff;
+  text-decoration: none;
+  display: inline-flex;
 }
